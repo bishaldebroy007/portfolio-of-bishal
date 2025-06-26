@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <div>
             {/* NavBar will be here */}
-            <div className="hero bg-base-200 min-h-screen">
+            <div className="hero bg-base-200 min-h-[750px]">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
                         <img src="https://avatars.githubusercontent.com/u/100646626?v=4" alt="Bishal Deb Roy" className="rounded-full w-48 h-48 mx-auto mb-6" />
