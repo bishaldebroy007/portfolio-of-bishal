@@ -16,7 +16,7 @@ const NavBar = () => {
                     <li>
                         <details>
                             <summary>Social Media</summary>
-                            <ul className="bg-emerald-600 rounded-t-none p-5">
+                            <ul className="bg-emerald-700 rounded-t-none p-5">
                                 <li><a>LinkedIn</a></li>
                                 <li><a>Facebook</a></li>
                                 <li><a>Instagram</a></li>

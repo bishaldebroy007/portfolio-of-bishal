@@ -14,6 +14,11 @@ import { SiTypescript } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiDjango } from "react-icons/di";
 import { SiPostman } from "react-icons/si";
+import { FaGit } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+import { FcLinux } from "react-icons/fc";
+import { SiNumpy } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
 
 const Skills = () => {
     return (
@@ -69,6 +74,10 @@ const Skills = () => {
                     <SiMysql size={100} color='B' />
                     <h6 className='flex justify-center font-medium'>MySQL</h6>
                 </div>
+                <div className='hover:scale-110 transition-transform duration-500'>
+                    <SiExpress size={100} color='black' />
+                    <h6 className='flex justify-center font-medium'>Express JS</h6>
+                </div>
 
                 <div className='hover:scale-110 transition-transform duration-500'>
                     <RiNextjsFill size={100} color='' />
@@ -81,6 +90,22 @@ const Skills = () => {
                 <div className='hover:scale-110 transition-transform duration-500'>
                     <SiPostman size={100} color='orange' />
                     <h6 className='flex justify-center font-medium'>Postman</h6>
+                </div>
+                <div className='hover:scale-110 transition-transform duration-500'>
+                    <FaGit size={100} color='darkRed' />
+                    <h6 className='flex justify-center font-medium'>Git & GitHub</h6>
+                </div>
+                <div className='hover:scale-110 transition-transform duration-500'>
+                    <SiNumpy size={100} color='skyBlue' />
+                    <h6 className='flex justify-center font-medium'>NumPy</h6>
+                </div>
+                <div className='hover:scale-110 transition-transform duration-500'>
+                    <SiPandas size={100} color='darkBlue' />
+                    <h6 className='flex justify-center font-medium'>Pandas</h6>
+                </div>
+                <div className='hover:scale-110 transition-transform duration-500'>
+                    <FcLinux size={100} />
+                    <h6 className='flex justify-center font-medium'>Linux</h6>
                 </div>
             </div>
 
