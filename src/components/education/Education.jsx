@@ -6,7 +6,7 @@ import { LuSchool } from "react-icons/lu";
 const Education = () => {
     return (
         <div>
-            <div className='py-30'>
+            <div id='education' className='py-30'>
                 <h1 className='flex justify-center text-5xl font-bold text-white'>Education</h1>
             </div>
             <div className='pb-30'>

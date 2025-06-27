@@ -8,7 +8,7 @@ const Projects = () => {
 
     return (
         <div>
-            <div className='flex justify-center text-5xl font-semibold mt-10 mb-3'>
+            <div id='projects' className='flex justify-center text-5xl font-semibold mt-10 mb-3'>
                 <h1>Projects</h1>
             </div>
             <div className="flex flex-wrap justify-center gap-8 p-4 m-20 hover:opacity-500 transition-opacity duration-300">

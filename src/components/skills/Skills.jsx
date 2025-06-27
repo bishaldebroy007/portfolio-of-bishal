@@ -22,7 +22,7 @@ import { SiPandas } from "react-icons/si";
 
 const Skills = () => {
     return (
-        <div className='bg-white text-black min-h-[500px] px-30 py-20'>
+        <div id='skills' className='bg-white text-black min-h-[500px] px-30 py-20'>
             <div className='flex justify-center text-5xl font-bold pb-30'>Skills</div>
             <div className='grid grid-cols-5 gap-2 justify-items-center'>
                 <div className='hover:scale-110 transition-transform duration-500'>

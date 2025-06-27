@@ -8,11 +8,11 @@ const NavBar = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 gap-x-10 text-lg">
-                    <li><a>About Me</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Skills</a></li>
-                    <li><a>Education</a></li>
-                    <li><a>Contact Me</a></li>
+                    <li><a href='#aboutMe'>About Me</a></li>
+                    <li><a href='#projects'>Projects</a></li>
+                    <li><a href='#skills'>Skills</a></li>
+                    <li><a href='#education'>Education</a></li>
+                    <li><a href='#foot'>Contact Me</a></li>
                     <li>
                         <details>
                             <summary>Social Media</summary>
