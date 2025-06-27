@@ -7,12 +7,12 @@ const HeroSection = () => {
             <div className="hero bg-base-200 min-h-[750px]">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
-                        <img src="/Graduation photo.jpg" alt="Bishal Deb Roy" className="rounded-full w-76 h-85 mx-auto mb-6 border-4 border-white hover:border-green-500 hover:scale-110  duration-500" />
+                        <img src="/Graduation photo.jpg" alt="Bishal Deb Roy" className="rounded-full w-76 h-85 mx-auto mb-6 border-4 border-white hover:border-green-500 hover:scale-110  duration-500 animate__animated animate__wobble animate__delay-1s" />
                         <h1 className="text-5xl font-bold">Bishal Deb Roy</h1>
                         <a
                             href="/Resume_Bishal.pdf" // Replace with actual path
                             download="Bishal Deb Roy_Resume.pdf" // Suggested filename for download
-                            className="btn bg-green-700 hover:scale-105 duration-300 hover:bg-green-500 hover:text-black text-white rounded-xl mt-4 font-normal text-2xl"
+                            className="btn bg-green-700 hover:scale-105 duration-300  hover:bg-green-500 hover:text-black text-white rounded-xl mt-4 font-normal text-2xl"
                         >
                             Resume
                         </a>
