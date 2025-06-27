@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <div className="navbar bg-base-200 shadow-sm">
             <div className="flex-1">
-                <a className="btn btn-ghost text-2xl">GitHub</a>
+                <h2 className="text-2xl font-bold pl-2 hover:opacity-80 hover:text-green-400 transition-transform duration-500 cursor-pointer">Portfolio</h2>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 gap-x-10 text-lg">
