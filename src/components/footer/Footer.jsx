@@ -18,6 +18,7 @@ const Footer = () => {
                 console.error('Failed to copy email: ', err);
                 // You could add an error alert here if you want
             });
+
     };
     return (
         <footer id='foot' className="footer footer-horizontal footer-center bg-green-900 text-base-content rounded p-10">
@@ -26,15 +27,33 @@ const Footer = () => {
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4 relative">
-                    <button>
+                    <a
+                        href="https://www.linkedin.com/in/bishal-deb-roy-0b31241a0/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block hover:scale-125 duration-300"
+                        aria-label="Visit my LinkedIn profile"
+                    >
                         <FaLinkedin className='hover:scale-130 duration-300 cursor-pointer' size={35} />
-                    </button>
-                    <button>
+                    </a>
+                    <a
+                        href="https://github.com/bishaldebroy007"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block hover:scale-125 duration-300"
+                        aria-label="Visit my LinkedIn profile"
+                    >
                         <FaSquareGithub className='hover:scale-130 duration-300 cursor-pointer' size={35} />
-                    </button>
-                    <button>
+                    </a>
+                    <a
+                        href="https://www.facebook.com/bishal.deb.roy.raj/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block hover:scale-125 duration-300"
+                        aria-label="Visit my Facebook profile"
+                    >
                         <FaFacebook className='hover:scale-130 duration-300 cursor-pointer' size={35} />
-                    </button>
+                    </a>
                     <button
                         onClick={copyEmailToClipboard}
                         className="hover:scale-125 duration-300 cursor-pointer"
