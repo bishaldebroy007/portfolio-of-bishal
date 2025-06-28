@@ -22,97 +22,92 @@ import { SiPandas } from "react-icons/si";
 
 const Skills = () => {
     return (
-        <div id='skills' className='bg-white text-black min-h-[500px] px-30 py-20'>
-            <div className='flex justify-center text-5xl font-bold pb-30'>Skills</div>
-            <div className='grid grid-cols-5 gap-2 justify-items-center'>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <TiHtml5 size={100} color='orange' />
-                    <h6 className='flex justify-center font-medium'>HTML5</h6>
+        <div id='skills' className='bg-white text-black min-h-[500px] px-4 sm:px-6 md:px-8 lg:px-30 py-10 sm:py-16 md:py-20'>
+            <div className='flex justify-center text-3xl sm:text-4xl md:text-5xl font-bold pb-10 sm:pb-20 md:pb-30'>Skills</div>
+            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-8 justify-items-center'>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <TiHtml5 className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='orange' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>HTML5</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <FaCss3 size={100} color='blue' />
-                    <h6 className='flex justify-center font-medium'>CSS</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <FaCss3 className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='blue' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>CSS</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <TbBrandTailwind size={100} color='skyBlue' />
-                    <h6 className='flex justify-center font-medium'>Tailwind CSS</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <TbBrandTailwind className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='skyBlue' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Tailwind CSS</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiDaisyui size={100} color='orange' />
-                    <h6 className='flex justify-center font-medium pt-1'>Daisy UI</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiDaisyui className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='orange' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Daisy UI</h6>
                 </div>
-
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiShadcnui size={100} />
-                    <h6 className='flex justify-center font-medium pt-1'>ShadCn</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiShadcnui className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>ShadCn</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <IoLogoJavascript size={100} color='yellow' />
-                    <h6 className='flex justify-center font-medium'>JavaScript</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <IoLogoJavascript className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='yellow' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>JavaScript</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiTypescript size={100} color='Blue' />
-                    <h6 className='flex justify-center font-medium pt-1'>TypeScript</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiTypescript className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='Blue' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>TypeScript</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <TbBrandPython size={100} color='' />
-                    <h6 className='flex justify-center font-medium'>Python</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <TbBrandPython className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Python</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <IoLogoReact size={100} color='skyBlue' />
-                    <h6 className='flex justify-center font-medium'>React JS</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <IoLogoReact className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='skyBlue' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>React JS</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <DiNodejs size={100} color='green' />
-                    <h6 className='flex justify-center font-medium'>Node JS</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <DiNodejs className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='green' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Node JS</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiMongodb size={100} color='green' />
-                    <h6 className='flex justify-center font-medium'>Mongo DB</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiMongodb className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='green' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Mongo DB</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiMysql size={100} color='B' />
-                    <h6 className='flex justify-center font-medium'>MySQL</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiMysql className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='B' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>MySQL</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiExpress size={100} color='black' />
-                    <h6 className='flex justify-center font-medium'>Express JS</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiExpress className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='black' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Express JS</h6>
                 </div>
-
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <RiNextjsFill size={100} color='' />
-                    <h6 className='flex justify-center font-medium'>Next JS</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <RiNextjsFill className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Next JS</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <DiDjango size={100} color='green' />
-                    <h6 className='flex justify-center font-medium'>Django</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <DiDjango className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='green' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Django</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiPostman size={100} color='orange' />
-                    <h6 className='flex justify-center font-medium'>Postman</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiPostman className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='orange' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Postman</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <FaGit size={100} color='darkRed' />
-                    <h6 className='flex justify-center font-medium'>Git & GitHub</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <FaGit className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='darkRed' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Git & GitHub</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiNumpy size={100} color='skyBlue' />
-                    <h6 className='flex justify-center font-medium'>NumPy</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiNumpy className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='skyBlue' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>NumPy</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <SiPandas size={100} color='darkBlue' />
-                    <h6 className='flex justify-center font-medium'>Pandas</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <SiPandas className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' color='darkBlue' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Pandas</h6>
                 </div>
-                <div className='hover:scale-110 transition-transform duration-500'>
-                    <FcLinux size={100} />
-                    <h6 className='flex justify-center font-medium'>Linux</h6>
+                <div className='hover:scale-110 transition-transform duration-500 flex flex-col items-center'>
+                    <FcLinux className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-25 lg:h-25' />
+                    <h6 className='text-sm sm:text-base md:text-lg font-medium mt-2'>Linux</h6>
                 </div>
             </div>
-
-
         </div>
     )
 }
 
 export default Skills
-

@@ -3,20 +3,16 @@ import React from 'react'
 const NavBar = () => {
     return (
         <div className="navbar bg-base-200 shadow-sm animate__animated animate__fadeInDownBig">
-            <div className="absolute inset-y-0 left-0 w-48 bg-white transform -skew-x-12 origin-top-left -ml-16 shadow-xl flex items-center justify-center z-0">
-                {/*
-    The GitHub button.
-    - transform skew-x-12: This counteracts the parent's -skew-x-12, making the button appear straight.
-  */}
+            {/* GitHub Button Container */}
+            <div className="absolute inset-y-0 left-0 w-16 sm:w-24 md:w-32 lg:w-48 bg-white transform -skew-x-12 origin-top-left -ml-8 sm:-ml-12 md:-ml-16 shadow-xl flex items-center justify-center z-0">
                 <a
                     href="https://github.com"
                     target="_blank"
-                    className="p-2 ml-15 rounded-full bg-base-100 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition ease-in-out duration-300 transform skew-x-12"
-                    rel="noopener noreferrer" // Added for security when using target="_blank"
+                    className="p-1 sm:p-2 ml-8 sm:ml-12 md:ml-15 rounded-full bg-base-100 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition ease-in-out duration-300 transform skew-x-12"
+                    rel="noopener noreferrer"
                 >
-                    {/* GitHub Icon (SVG) - standard GitHub logo path */}
                     <svg
-                        className="w-6 h-6 text-white"
+                        className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -29,11 +25,42 @@ const NavBar = () => {
                     </svg>
                 </a>
             </div>
+
+            {/* Portfolio Title */}
             <div className="flex-1">
-                <h2 className="text-2xl font-bold pl-35 hover:opacity-80 hover:text-green-400 transition-transform duration-500 cursor-pointer">Portfolio</h2>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold pl-12 sm:pl-20 md:pl-28 lg:pl-35 hover:opacity-80 hover:text-green-400 transition-transform duration-500 cursor-pointer">Portfolio</h2>
             </div>
+
+            {/* Navigation Links */}
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1 gap-x-10 text-lg">
+                {/* Mobile Menu Button (Hamburger) */}
+                <div className="dropdown dropdown-end md:hidden">
+                    <label tabIndex={0} className="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </label>
+                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52">
+                        <li><a href='#aboutMe'>About Me</a></li>
+                        <li><a href='#projects'>Projects</a></li>
+                        <li><a href='#skills'>Skills</a></li>
+                        <li><a href='#education'>Education</a></li>
+                        <li><a href='#foot'>Contact Me</a></li>
+                        <li>
+                            <details>
+                                <summary>Social Media</summary>
+                                <ul className="bg-emerald-700 rounded-t-none p-2">
+                                    <li><a>LinkedIn</a></li>
+                                    <li><a>Facebook</a></li>
+                                    <li><a>Instagram</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+
+                {/* Desktop Navigation */}
+                <ul className="hidden md:flex menu menu-horizontal px-1 gap-x-4 lg:gap-x-6 xl:gap-x-10 text-sm sm:text-base md:text-lg">
                     <li><a href='#aboutMe'>About Me</a></li>
                     <li><a href='#projects'>Projects</a></li>
                     <li><a href='#skills'>Skills</a></li>
@@ -42,7 +69,7 @@ const NavBar = () => {
                     <li>
                         <details>
                             <summary>Social Media</summary>
-                            <ul className="bg-emerald-700 rounded-t-none p-5">
+                            <ul className="bg-emerald-700 rounded-t-none p-2">
                                 <li><a>LinkedIn</a></li>
                                 <li><a>Facebook</a></li>
                                 <li><a>Instagram</a></li>
