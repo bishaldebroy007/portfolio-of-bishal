@@ -1,12 +1,59 @@
-# React + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my official portfolio made using **React JS, Tailwind CSS, Daisy UI & Animation.CSS**
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use the package manager [yarn]([https://pip.pypa.io/en/stable/](https://yarnpkg.com/)) to install the portfolio.
 
-## Expanding the ESLint configuration
+```bash
+yarn
+```
+or, <br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+yarn install
+```
+
+## Running the Project
+
+```bash
+yarn dev
+```
+
+## Website Demo
+
+**Landing page or Home Page**
+
+![image](https://github.com/user-attachments/assets/1c775e3b-51db-45ee-af5c-11b0b5332c36)
+
+**About Me**
+
+![image](https://github.com/user-attachments/assets/9bbeae07-597e-4adf-a9fa-93db39704c57)
+
+**Projects**
+
+![image](https://github.com/user-attachments/assets/9d0c2299-376a-4b66-8a40-1ab36f5dddee)
+
+**Skills**
+
+![image](https://github.com/user-attachments/assets/5d727f6a-34bd-467f-9ffb-50b73c3beb82)
+
+**Education**
+
+![image](https://github.com/user-attachments/assets/d63324bd-9bf3-4ee1-a740-f12dd356c753)
+
+**Footer or Contact Me**
+
+![image](https://github.com/user-attachments/assets/28cbb2d7-c10f-4916-ac4d-a63120a0b735)
+
+
+## Contributing
+
+Just to let you know, pull requests are welcome. For major changes, please open an issue first.**
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
