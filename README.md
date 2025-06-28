@@ -50,7 +50,7 @@ yarn dev
 
 ## Contributing
 
-Just to let you know, pull requests are welcome. For major changes, please open an issue first.**
+Just to let you know, pull requests are welcome. For major changes, please open an issue first.
 
 
 
