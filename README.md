@@ -25,7 +25,7 @@ yarn dev
 
 **Landing page or Home Page**
 
-![image](https://github.com/user-attachments/assets/1c775e3b-51db-45ee-af5c-11b0b5332c36)
+![image](https://github.com/user-attachments/assets/e7d56a7f-47d2-499a-82b6-6e32e76618ff)
 
 **About Me**
 
