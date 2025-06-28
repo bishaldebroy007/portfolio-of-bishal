@@ -6,9 +6,9 @@ const NavBar = () => {
             {/* GitHub Button Container */}
             <div className="absolute inset-y-0 left-0 w-16 sm:w-24 md:w-32 lg:w-48 bg-white transform -skew-x-12 origin-top-left -ml-8 sm:-ml-12 md:-ml-16 shadow-xl flex items-center justify-center z-0">
                 <a
-                    href="https://github.com"
+                    href="https://github.com/bishaldebroy007"
                     target="_blank"
-                    className="p-1 sm:p-2 ml-8 sm:ml-12 md:ml-15 rounded-full bg-base-100 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition ease-in-out duration-300 transform skew-x-12"
+                    className="p-1 sm:p-2 ml-8 sm:ml-12 md:ml-15 rounded-full bg-base-100 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-orange-800 focus:ring-opacity-50 transition ease-in-out duration-300 transform skew-x-12 scale-110"
                     rel="noopener noreferrer"
                 >
                     <svg
@@ -50,9 +50,27 @@ const NavBar = () => {
                             <details>
                                 <summary>Social Media</summary>
                                 <ul className="bg-emerald-700 rounded-t-none p-2">
-                                    <li><a>LinkedIn</a></li>
-                                    <li><a>Facebook</a></li>
-                                    <li><a>Instagram</a></li>
+                                    <li><a
+                                        href="https://www.linkedin.com/in/bishal-deb-roy-0b31241a0/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block hover:scale-125 duration-300"
+                                        aria-label="Visit my LinkedIn profile"
+                                    >LinkedIn</a></li>
+                                    <li><a
+                                        href="https://www.facebook.com/bishal.deb.roy.raj/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block hover:scale-125 duration-300"
+                                        aria-label="Visit my Facebook profile"
+                                    >Facebook</a></li>
+                                    <li><a
+                                        href="https://www.instagram.com/raj.roy.__/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block hover:scale-125 duration-300"
+                                        aria-label="Visit my Instagram profile"
+                                    >Instagram</a></li>
                                 </ul>
                             </details>
                         </li>

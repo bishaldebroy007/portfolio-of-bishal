@@ -41,7 +41,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block hover:scale-125 duration-300"
-                        aria-label="Visit my LinkedIn profile"
+                        aria-label="Visit my GitGub profile"
                     >
                         <FaSquareGithub className='hover:scale-130 duration-300 cursor-pointer' size={35} />
                     </a>
