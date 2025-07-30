@@ -5,7 +5,7 @@ const AboutMe = () => {
         <div className="hero bg-green-900 min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
-                    src="Graduation photo.jpg"
+                    src="Raj image.jpg"
                     className="max-h-xs max-w-3xs md:max-h-sm md:max-w-sm rounded-2xl shadow-2xl outline-2"
                 />
                 <div>

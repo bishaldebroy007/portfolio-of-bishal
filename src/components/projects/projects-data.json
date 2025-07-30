@@ -1,23 +1,16 @@
 [
   {
     "id": 1,
-    "project_title": "Weather App",
-    "project_details": "A responsive weather application built with React and OpenWeather API.",
-    "project_link": "https://example.com/weather-app",
-    "project_image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+    "project_title": "SmartSpend",
+    "project_details": "A Budget management website made using React JS, Tailwind CSS, Daisy UI, MongoDB, and Express JS",
+    "project_link": "https://github.com/bishaldebroy007/smart-spend-2.0",
+    "project_image": "/public/smartspend image.png"
   },
   {
     "id": 2,
     "project_title": "E-Commerce Dashboard",
     "project_details": "Full-stack e-commerce dashboard with Django and React.",
     "project_link": "https://example.com/ecommerce-dashboard",
-    "project_image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-  },
-  {
-    "id": 3,
-    "project_title": "ML Sentiment Analysis",
-    "project_details": "Python script analyzing tweet sentiments using NLP.",
-    "project_link": "https://example.com/sentiment-analysis",
     "project_image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
   }
 ]

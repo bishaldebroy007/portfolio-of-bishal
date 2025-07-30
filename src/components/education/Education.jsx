@@ -6,10 +6,10 @@ import { LuSchool } from "react-icons/lu";
 const Education = () => {
     return (
         <div>
-            <div id='education' className='py-30'>
-                <h1 className='flex justify-center text-5xl font-bold text-white'>Education</h1>
+            <div id='education' className='py-10 md:py-30'>
+                <h1 className='flex justify-center text-3xl md:text-4xl lg:text-5xl font-bold text-white'>Education</h1>
             </div>
-            <div className='pb-30'>
+            <div className='pb-10 md:pb-30 px-3'>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li>
                         <div className="timeline-middle">
