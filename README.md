@@ -1,5 +1,6 @@
 # Portfolio Project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2604f53-a0e2-44bb-add8-e8ce4b7f8f6e/deploy-status)](https://app.netlify.com/projects/portfolio-of-bishal/deploys)
 This is my official portfolio made using **React JS, Tailwind CSS, Daisy UI & Animation.CSS**
 
 ## Installation
@@ -50,10 +51,7 @@ yarn dev
 
 ## Contributing
 
-Just to let you know, pull requests are welcome. For major changes, please open an issue first.
-
-## Deploy
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b2604f53-a0e2-44bb-add8-e8ce4b7f8f6e/deploy-status)](https://app.netlify.com/projects/portfolio-of-bishal/deploys)
+Pull requests are welcome. For major changes, please open an issue first.
 
 ## License
 
