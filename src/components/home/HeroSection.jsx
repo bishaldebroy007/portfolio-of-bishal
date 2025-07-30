@@ -16,9 +16,9 @@ const HeroSection = () => {
                         <a
                             href="/Resume_Bishal.pdf"
                             download="Bishal Deb Roy_Resume.pdf"
-                            className="btn bg-green-700 hover:scale-105 duration-300 hover:bg-green-500 hover:text-black text-white rounded-xl mt-3 sm:mt-4 font-normal text-lg sm:text-xl md:text-2xl animate__animated animate__flip animate__delay-1.5s"
+                            className="btn bg-green-700 hover:scale-105 duration-300 hover:bg-green-500 hover:text-black text-white rounded-2xl mt-3 sm:mt-4 hover:outline-2 font-normal text-lg sm:text-xl md:text-2xl animate__animated animate__flip animate__delay-1.5s"
                         >
-                            Resume
+                            Download Resume
                         </a>
                     </div>
                 </div>
